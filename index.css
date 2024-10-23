@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    background-image: url(./image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.nav {
+    background-color: blue;
+    display: flex;
+    height: 30px;
+}
+
+#head2 {
+    margin-left: 100px;
+    margin-top: 5px;
+}
+#head2 a{
+    text-decoration: none;
+    color: white;
+
+}
+#head2 a:hover{
+    /* background-color: red; */
+    color: red;
+}
+#head2 li {
+    display: inline;
+    padding: 10px;
+}
+
+#head3 {
+    margin-left: 500px;
+    margin-top: 3px;
+}
+
+#head3 a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+#head3 a:hover{
+    color: red;
+}
+
+.sec1{
+    text-align: center;
+    margin: 20px 20px;
+}
+#srch input{
+width: 300px;
+height: 30px;
+border-radius: 20px;
+}
+#imgcomp img{
+    width: 800px;
+    border-radius: 50px;
+}
+
+.joblist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.sec2{
+
+}
+#sec2comp{
+
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+}
+
+.footer{
+    background-color: black;
+}
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    margin: 5px 15px;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: blue; 
+    font-size: larger;
+
+}
+
+.sec2 input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    }
+.footimg img{
+    width: 50px;
+    height: 100px;
+}
+
+.inlineset {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.job {
+    /* border: 3px solid blue; */
+    text-align: center;
+    padding: 10px;
+}
+.job:hover{
+    background-color:antiquewhite;
+    color: blue;
+}
+.job img{
+    width: 100px;
+    height: 100px;
+}
+
+.apply-button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+    font-size: larger;
+}
+
+.apply-button:hover {
+    background-color: black;
+    color: red;
+}
